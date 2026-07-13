@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_kmp_contents_print",
+  "source_file": "utl-altair-slc-bare-bones-code-kaplan-meit-plot-using-r-packages-kaplan-meier-curves.sas",
+  "source_blob_sha": "bd09a10d338680277b1300e41f6286306b12a808",
+  "source_commit": "70c7a3e50a25b83599d3f74acfa66621edf3f193",
+  "notes": "Original inspects survival dataset kmp.sample_50000 (Year/time_to_event/Census) via 'libname kmp sas7bdat \"d:/kmp\"'. Replaced the external Windows libname with an inline 20-row DATA step sampled from the repo's kmp.sample_50000.csv (all four years 2014-2017, time_to_event 0-355, both Census values), then ran the repo's own PROC CONTENTS position + PROC PRINT(obs=3) + PROC PRINT(firstobs=18, the tail-slice analog of the original firstobs=199998). PROC R survminer/survival plotting step omitted (R bridge, not SAS)."
+}

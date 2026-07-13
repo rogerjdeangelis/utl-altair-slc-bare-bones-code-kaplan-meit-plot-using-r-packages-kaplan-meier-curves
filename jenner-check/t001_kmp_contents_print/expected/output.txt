@@ -1,0 +1,32 @@
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: sample_50000
+Observations:  20
+Variables:     3
+
+Variables (in creation order):
+
+  #  Variable       Type    Len  Format  Label
+---  -------------  ----  -----  ------  -----
+  1  Year            Num      8          
+  2  time_to_event   Num      8          
+  3  Census          Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  Year  time_to_event  Census
+-----  ----  -------------  ------
+    1  2014              0       0
+    2  2014             60       0
+    3  2014            170       0
+
+... 17 more observations (showing 3 of 20)
+
+  Obs  Year  time_to_event  Census
+-----  ----  -------------  ------
+    1  2017            170       1
+    2  2017            270       0
+    3  2017            355       0
+
